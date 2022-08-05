@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>salary calculator</title>
+    <script src="scripts/model.js"></script>
+    <script src="scripts/controller.js"></script>
+</head>
+<body>
+    <h1>SALARY CALCULATOR</h1>
+<label>BASIC SALARY</label>    <input  id="salary" type="text" placeholder="ENTER BASIC SALARY HERE">
+<br>
+<button onclick=compute()>compute</button>
+<fieldset>
+    <legend>ALLOWANCES</legend>
+    <p>hra is <span id="hra"></span></p>
+    <p>da is <span id="da"></span></p>
+    <p>ma is <span id="ma"></span></p>
+    <p>ta is <span id="ta"></span></p>
+    <p>pf is <span id="pf"></span></p>
+    <p>gross salary is <span id="gs"></span></p>
+    <p>net salary is <span id="ns"></span></p>   
+</fieldset>
+
+</body>
+</html>
